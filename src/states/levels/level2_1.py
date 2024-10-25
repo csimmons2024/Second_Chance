@@ -12,6 +12,6 @@ class Level2_1(Level):
 
     def add_portal(self):
         # Add portal at specific coordinates
-        self.portal = Portal(3500, 400, "assets/backgrounds/portal.png", 150, 150)
+        self.portal = Portal(2500, 700, "assets/backgrounds/portal.png", 150, 150)
         self.portals.add(self.portal)
         self.objects.add(self.portals)
