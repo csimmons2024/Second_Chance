@@ -24,7 +24,8 @@ import redditwarp.SYNC
 import webbrowser
 
 # Global variable for volume
-volume = 0.5  # Initial volume value, you can set it to any value you desire
+volume = 0.3  # Initial volume value, you can set it to any value you desire
+#changed to 3 because too loud.....
 
 
 def load_theme_config():
