@@ -3,7 +3,7 @@ from .level import Level
 
 class Level2_1(Level):
     def __init__(self):
-        imgArr = [f"plx-red-1.png"]
+        imgArr = [f"plx-red-1.jpg"]
         super().__init__(
             level=2,
             music_file="levelmusic.mp3",
