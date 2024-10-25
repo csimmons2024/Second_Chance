@@ -1,11 +1,9 @@
 from src.objects.portal import Portal  # Import portal class
 from .level import Level
 
-#Create level 2 and set start game to direct to level 2
-
 class Level2_1(Level):
     def __init__(self):
-        imgArr = [f"plx-5.png"]
+        imgArr = [f"plx-red-1.png"]
         super().__init__(
             level=2,
             music_file="levelmusic.mp3",
