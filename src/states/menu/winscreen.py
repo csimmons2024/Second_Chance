@@ -10,12 +10,21 @@ class WinScreen(State):
         super().__init__("background.png")
 
     def handle_events(self, events: list[pg.event.Event]):
+        #import your level here I guess
+        #if more levels wanted to be made there would have to be a global counter that is accessed here
+        #there would have to be imports for all levels....loops? no it would prob be a switch under the return key stuff
+        #will test soon....
         from .title_screen import TitleScreen
+        from ..levels.level2_1 import Level2_1
         for event in events:
             if event.type != pg.KEYDOWN:
                 return
             if event.key == pg.K_RETURN:
-                self.manager.set_state(TitleScreen)
+
+
+                #add the new level in here Andrew this will make the game go to the next level
+                #instead of back to the title screen pretty sure...
+                self.manager.set_state(Level2_1)
 
     def draw(self):
         super().draw()
