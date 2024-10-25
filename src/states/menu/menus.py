@@ -19,6 +19,7 @@ from src.states.state import State, TimedState
 from src.utils.leaderboard import LeaderboardManager
 from src.utils.timer import Timer
 from ..levels.level1_1 import Level1_1
+from ..levels.level2_1 import Level2_1
 
 import redditwarp.SYNC
 import webbrowser
