@@ -96,7 +96,7 @@ class StartMenu(State):
 
             # Add buttons to the menu
         self.menu.add.button('Start Level 1', self.manager.set_state, Level1_1)
-        self.menu.add.button('Start Level 1', self.manager.set_state, Level2_1)
+        self.menu.add.button('Start Level 2', self.manager.set_state, Level2_1)
         self.menu.add.button("Instructions", self.instructions_menu)
         self.menu.add.button("Minigames", self.minigames_menu)
         self.menu.add.button("Leaderboard", self.leaderboard_menu)
