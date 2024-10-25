@@ -4,7 +4,7 @@ from .level import Level
 
 class Level1_1(Level):
     def __init__(self):
-        imgArr = [f"plx-{i}.png" for i in range(1, 6)]
+        imgArr = [f"{i}-riv.png" for i in range(1, 6)]
         super().__init__(
             level=1,
             music_file="Messmer, The Impaler - Elden Ring Shadow Of The Erdtree OST Official Soundtrack Original Score [ ezmp3.cc ].mp3",
