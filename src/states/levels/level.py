@@ -180,7 +180,7 @@ class Level(State):
 
         if imgArr is not None:
             for i in range(1, 6):
-                bg_image = pg.image.load(f"assets/backgrounds/plx-{i}.png").convert_alpha()
+                bg_image = pg.image.load(f"assets/backgrounds/plx-{i}-riv.png").convert_alpha()
                 bg_image = pg.transform.smoothscale(bg_image, self.screen.get_size())
                 self.bg_images.append(bg_image)
                 self.bg_width = self.bg_images[0].get_width()

@@ -10,12 +10,12 @@ class TitleScreen(State):
     """State for the title screen."""
 
     def __init__(self):
-        super().__init__("background.png")
+        super().__init__("background-riv.png")
 
-        self.title_logo = pg.image.load("assets/backgrounds/title_logo.png")
+        self.title_logo = pg.image.load("assets/backgrounds/title_logo-riv.png")
         self.title_logo = pg.transform.scale(self.title_logo, (450, 250))
         # Load background music
-        pg.mixer.music.load('assets/music/titlescreenmusic.mp3')
+        pg.mixer.music.load('assets/music/Dark Souls 3 OSTSoul of Cinder.mp3')
         # Set initial volume
         self.volume = menus.volume  # Initial volume level (between 0 and 1)
         pg.mixer.music.set_volume(menus.volume)
